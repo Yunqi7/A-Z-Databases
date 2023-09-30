@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Library Database Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="library.png" alt="Library">
+        <h1>A-Z databases</h1>
+        <p>Databases contain resources including journal articles, books, newspapers, and videos.<br>Not sure which
+            database to use? Sort by Faculty/Subject below or see recommendations in our library guides.</p>
+    </header>
+    <main>
+        <div class="search-container">
+            <div class="search-options">
+                <select id="database-category">
+                    <option value="all">Sort by Faculty/Subject</option>
+                    <option value="arts">Arts, Social Sciences & Humanities</option>
+                    <option value="business">Business & Law</option>
+                    <option value="engineering">Engineering & Information Sciences</option>
+                    <option value="library">Library Services & Resources</option>
+                    <option value="science">Science, Medicine & Health</option>
+                </select>
+                <input type="text" id="search-keyword" placeholder="Search for databases">
+                <button id="search-button">Go</button>
+            </div>
+            <nav class="alphabet-nav">
+                <a href="#A">A</a>
+                <a href="#B">B</a>
+                <a href="#Z">Z</a>
+            </nav>
+        </div>
+        <ul class="database-list">
+            <li>
+                <a href="https://search-informit-org.ezproxy.uow.edu.au/" target="_blank">A+ Education (Informit
+                    Full-Text) Australian content</a>
+                <p>Covers all aspects of Australian education produced by the Australian Council for Educational
+                    Research (ACER). Full-text. Australian. Full-text: 2000+. index: 1978+</p>
+            </li>
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

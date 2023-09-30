@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.search-options select,
+.search-options input[type="text"],
+.search-options button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.alphabet-nav {
+  margin-top: 20px;
+}
+
+.alphabet-nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px; /* 添加字体大小样式 */
+}
+
+.database-list li {
+  margin-top: 20px;
+}
+
+.database-list a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
